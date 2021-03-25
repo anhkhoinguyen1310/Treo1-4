@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+/* Margin is applied to the outside of your element away from other elements, Paddle adding is applied to the inside of your element away from border */
+nav
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    color: white;
+}
+
+a 
+{
+    margin: 0.4rem;
+}
+
+section
+{
+    display: flex;
+    height: 60vh;
+    padding: 10px 10%;
+}
+.section1
+{
+    background-color: #ff4632;
+}
+section:nth-of-type(2) /*2nd of type section = specify class*/
+{
+      background-color:  #cb1582;
+}
+section:nth-of-type(3 ) /*2nd of type section = specify class*/
+{
+      background-color:  #2d46b9;
+}
+.col 
+{
+   flex:1;
+ }
+.col text
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .logo img
+{
+    max-width: 95vw;
+    height: auto;
+    width: 130px;
+}
+.col >img /* any image has a child column */
+{
+ height:  450px;
+ width: 450px;  
+}
+.justify.content.center
+{
+    justify-content: center;
+}
+.displayFlex 
+{
+    display: flex; 
+}
+.align-items-center
+{
+    align-items: center;
+}
+footer {
+    height: 60vh;
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+  }
+  
+  .right-footer {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .left-footer {
+    flex: 3;
+    justify-content: space-around;
+    font-size: 0.6rem;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .text-align-right {
+    text-align: right;
+  }
+  
+  .align-items-end {
+    align-items: flex-end;
+  }
+.button {
+	margin-top: 35px;
+	border-radius: 500px;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 17px 48px;
+	background-color: #000;
+	color: #ffffff;
+	letter-spacing: 2px;
+	border: 0;
+}
